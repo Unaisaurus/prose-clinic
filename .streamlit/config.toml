@@ -1,0 +1,18 @@
+# Prose Clinic runs entirely on your computer.
+
+[browser]
+# Don't send anonymous usage statistics to Streamlit.
+gatherUsageStats = false
+
+[server]
+# Skip Streamlit's first-run "enter your email" question in the terminal.
+showEmailPrompt = false
+# Only accept connections from this computer.
+address = "localhost"
+
+[theme]
+primaryColor = "#b0413e"
+
+[client]
+# Hide developer-only menu items such as "Deploy".
+toolbarMode = "viewer"

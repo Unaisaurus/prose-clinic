@@ -1,0 +1,5 @@
+# Everything the app needs. Install with:  python -m pip install -r requirements.txt
+streamlit>=1.67,<2      # the web interface
+pandas>=2.2             # tables and charts (also installed by streamlit)
+requests>=2.31,<3       # optional: OpenAI-compatible AI servers (Ollama, LM Studio, OpenAI...)
+anthropic>=2.8,<3       # optional: Claude AI features
